@@ -26,7 +26,6 @@ class PageController extends Controller
         ];
     }
 
-    // Total UC dari pesanan yang berhasil
     private function totalUc(): int
     {
         $berhasil = array_filter($this->pesanan(), fn($p) => $p['status'] === 'Berhasil');
@@ -66,11 +65,16 @@ class PageController extends Controller
             return redirect('/');
         }
 
-        return view('profile', [
-            'username' => $username,
-            'totalUc'  => $this->totalUc(),
-            'info'     => ['Peran' => 'Member', 'Game' => 'PUBG Mobile', 'Bergabung' => '1 Sep 2026'],
-        ]);
+        
+    return view('profile', [
+        'username' => $username,
+        'totalUc'  => $this->totalUc(),
+        'info'     => [
+            'Username PUBG' => 'ARANihBoss',
+            'ID PUBG'       => '5123456789',
+            'Bergabung'     => '1 Februari 2019',
+        ],
+    ]);
     }
 
     public function pengelolaan(Request $request)

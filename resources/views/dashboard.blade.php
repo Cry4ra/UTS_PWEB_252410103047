@@ -7,10 +7,16 @@
 @endsection
 
 @section('content')
+ <div class="banner-pubg">
+        <img src="{{ asset('images/banner.jpg') }}"
+        alt="Banner PUBG Mobile">
+</div>
+
 <div class="hero mb-4">
     <h1 class="fw-bold">PUBG MOBILE <span class="badge bg-secondary fs-6 align-middle"></span></h1>
     <p class="mb-0">Halo, <strong>{{ $username }}</strong>! Pilih paket UC, isi Player ID, lalu checkout dehh</p>
 </div>
+
 
 <div class="row g-4">
     <div class="col-lg-8">
@@ -37,7 +43,7 @@
 
     <div class="col-lg-4">
         <div class="card warnaCard garisTepi p-3 summary text-light">
-            <h4 class="mb-3">2. Ringkasan</h4>
+            <h4 class="mb-3">2. Pesanan</h4>
 
             <label class="form-label">Player ID</label>
             <input type="text" id="playerId" class="form-control mb-3" placeholder="Contoh: 5123456789">

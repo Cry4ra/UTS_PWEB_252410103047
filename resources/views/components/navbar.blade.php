@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="menuNav">
             <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
                 <li class="nav-item"><a class="nav-link" href="{{ route('dashboard', ['username' => $username]) }}">Top Up</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ route('pengelolaan', ['username' => $username]) }}">Pengelolaan</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('pengelolaan', ['username' => $username]) }}">Riwayat Pesanan</a></li>
                 <li class="nav-item dropdown">
                     <a class="btn btn-sm btn-outline-warning dropdown-toggle" href="#" data-bs-toggle="dropdown">
                         👤 {{ $username }}
