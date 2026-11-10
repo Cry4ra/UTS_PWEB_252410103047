@@ -1,3 +1,4 @@
+HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -56,3 +57,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+![Login](https://github.com/user-attachments/assets/2a3a0338-1f49-41ad-ac92-dac47d004e6c)
+
+![Dashboard](https://github.com/user-attachments/assets/a7cef0d7-f73c-410c-98e6-8c1f7cea52e7)
+
+![Profile](https://github.com/user-attachments/assets/ef5b3055-55c1-4809-a8c4-822a424970cb)
+
+![Pengelolaan](https://github.com/user-attachments/assets/77de34d6-09d5-4cca-93bc-1479968fc990)
+Membuat website simulasi top up UC untuk game PUBG MOBILE. Website ini bernama RV Store
+>>>>>>> 9c1c53f4538b29592b60b29556980f57e4eaf74c
